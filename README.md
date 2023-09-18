@@ -29,8 +29,6 @@ I then converted the .ods file to a dataframe using pandas, followed by pivoting
 ![Alt text](<Dashboard 1 (1).png>)
 
 
-
-
  _The Total Received Amount was**Ksh 468,474.82**_
 
  _The Total Amount Spent was **Ksh 468,381.71**_
@@ -40,8 +38,9 @@ I then converted the .ods file to a dataframe using pandas, followed by pivoting
  _The Highest Amount Received was **Ksh 21046.0** via **CHIME INC**_
 
 
+
  _Out of the **Ksh 100,005.00** sent via Send Money **Ksh 1,722.00** was charged as Transaction Fees_
 
  _Out of the **Ksh 146,451.00** transacted via the Lipa na Mpesa option **Ksh 772.00** was charged as Transaction Fees_
 
-
+ _Out of the **Ksh 8,700.00** withdrawn **Ksh 390** was charged as Withdrawal Fees_
