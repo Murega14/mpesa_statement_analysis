@@ -23,7 +23,13 @@ I then converted the .ods file to a dataframe using pandas, followed by pivoting
     3.Paid In
     4.Withdrawn
 
-**I was then able to analyse the data to come up with the following insights:**
+
+## **I was then able to analyse the data to come up with the following insights:**
+
+![Alt text](<Dashboard 1 (1).png>)
+
+
+
 
 > The Total Received Amount was**Ksh 468,474.82**
 
@@ -32,14 +38,6 @@ I then converted the .ods file to a dataframe using pandas, followed by pivoting
 > The Highest Amount Spent was **Ksh 20790.0** to **Cuea Via Citi**
 
 > The Highest Amount Received was **Ksh 21046.0** via **CHIME INC**
-
-
-
-
-The image below shows insights from the Analysis that was done
-
-![Alt text](<Dashboard 1 (1).png>)
-
 
 
 > Out of the **Ksh 100,005.00** sent via Send Money **Ksh 1,722.00** was charged as Transaction Fees
