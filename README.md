@@ -19,8 +19,7 @@ I then converted the .ods file to a dataframe using pandas, followed by pivoting
     3.Paid In
     4.Withdrawn
 
-I was then able to analyse the data to come up with the following insights:
-
+> I was then able to analyse the data to come up with the following insights:
 
 The Total Received Amount was**Ksh 468,474.82**
 
