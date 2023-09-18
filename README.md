@@ -21,71 +21,14 @@ I then converted the .ods file to a dataframe using pandas, followed by pivoting
 
 I was then able to analyse the data to come up with the following insights:
 
-<style>
-
-.animated-figure {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-
-@keyframes count {
-  from {
-    transform: scale(1);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1.1);
-    opacity: 1;
-  }
-}
-
-    </style>
-
-<div class="animated-figure">
-    Ksh <span id="counter">468,474.82</span>
-</div>
-
-<script>
-  function animateValue(id, start, end, duration) {
-    var obj = document.getElementById(id);
-    var range = end - start;
-    var currentTime = 0;
-    var increment = 10; // Change this for smoother/faster animation
-    var stepTime = Math.abs(Math.floor(duration / range));
-
-    function updateNumber() {
-      currentTime += increment;
-      var val = Math.easeInOutQuad(currentTime, start, range, duration);
-      obj.innerHTML = val.toLocaleString(); // Format the number with commas
-      if (currentTime < duration) {
-        requestAnimationFrame(updateNumber);
-      }
-    }
-
-    updateNumber();
-  }
-
-  // Easing function for smoother animation
-  Math.easeInOutQuad = function (t, b, c, d) {
-    t /= d / 2;
-    if (t < 1) return (c / 2) * t * t + b;
-    t--;
-    return (-c / 2) * (t * (t - 2) - 1) + b;
-  };
-
-  // Start the animation
-  animateValue("counter", 100000, 100905, 2000); // Adjust duration as needed
-</script>
-
 
 The Total Received Amount was**Ksh 468,474.82**
 
 The Total Amount Spent was **Ksh 468,381.71**
 
-The Highest Amount Spent was **Ksh 20790.0** to Cuea Via Citi
+The Highest Amount Spent was **Ksh 20790.0** to **Cuea Via Citi**
 
-The Highest Amount Received was **Ksh 21046.0** via CHIME INC
+The Highest Amount Received was **Ksh 21046.0** via **CHIME INC**
 
 
 
@@ -95,10 +38,9 @@ The image below shows insights from the Analysis that was done
 ![Alt text](<Dashboard 1 (1).png>)
 
 
-```python
+
 Out of the **Ksh 100,005.00** sent via Send Money **Ksh 1,722.00** was charged as Transaction Fees
 
 Out of the **Ksh 146,451.00** transacted via the Lipa na Mpesa option **Ksh 772.00** was charged as Transaction Fees
-```
 
 
