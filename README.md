@@ -31,17 +31,17 @@ I then converted the .ods file to a dataframe using pandas, followed by pivoting
 
 
 
-> _The Total Received Amount was**Ksh 468,474.82**_
+ _The Total Received Amount was**Ksh 468,474.82**_
 
-> _The Total Amount Spent was **Ksh 468,381.71**_
+ _The Total Amount Spent was **Ksh 468,381.71**_
 
-> _The Highest Amount Spent was **Ksh 20790.0** to **Cuea Via Citi**_
+ _The Highest Amount Spent was **Ksh 20790.0** to **Cuea Via Citi**_
 
-> _The Highest Amount Received was **Ksh 21046.0** via **CHIME INC**_
+ _The Highest Amount Received was **Ksh 21046.0** via **CHIME INC**_
 
 
-> _Out of the **Ksh 100,005.00** sent via Send Money **Ksh 1,722.00** was charged as Transaction Fees_
+ _Out of the **Ksh 100,005.00** sent via Send Money **Ksh 1,722.00** was charged as Transaction Fees_
 
-> _Out of the **Ksh 146,451.00** transacted via the Lipa na Mpesa option **Ksh 772.00** was charged as Transaction Fees_
+ _Out of the **Ksh 146,451.00** transacted via the Lipa na Mpesa option **Ksh 772.00** was charged as Transaction Fees_
 
 
